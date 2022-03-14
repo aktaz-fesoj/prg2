@@ -3,7 +3,7 @@ from PySide6.QtGui import QGuiApplication
 from PySide6.QtQuick import QQuickView
 import sys
 
-VIEW_URL = "view.qml"
+VIEW_URL = "view_degminsec.qml"
 
 class DMSModel(QObject):
     def __init__(self):

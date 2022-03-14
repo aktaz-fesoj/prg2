@@ -8,7 +8,7 @@ Column {
         Label {
             text: 'DMS:'
         }
-        TextInput{
+        TextField{
             id: degInput
             maximumLength: 3
             text: dmsmodel.deg
@@ -22,7 +22,7 @@ Column {
         Label{
             text:'° '
         }
-        TextInput {
+        TextField {
             id: minInput
             text: dmsmodel.min
 
@@ -35,7 +35,7 @@ Column {
         Label {
             text:'\''
         }
-        TextInput {
+        TextField {
             id: secInput
             text: dmsmodel.sec
 
@@ -58,7 +58,7 @@ Column {
         Label {
             text: 'Degrees:'
         }
-        TextInput {
+        TextField {
             id: degFloatInput
             maximumLength: 8
             text: dmsmodel.deg_float
